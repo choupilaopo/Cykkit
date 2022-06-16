@@ -1,0 +1,6 @@
+framework module CykKit {
+  umbrella header "CykKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

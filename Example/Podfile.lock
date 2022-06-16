@@ -1,0 +1,16 @@
+PODS:
+  - CykKit (0.1.0)
+
+DEPENDENCIES:
+  - CykKit (from `../`)
+
+EXTERNAL SOURCES:
+  CykKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CykKit: 67fe28031c472c50671292da0341f9d35a2766de
+
+PODFILE CHECKSUM: a0dd1ce9f057f666e5976c8ee5b9756741ebbf3b
+
+COCOAPODS: 1.10.1

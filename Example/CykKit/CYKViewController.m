@@ -7,7 +7,7 @@
 //
 
 #import "CYKViewController.h"
-
+#import <CykKit/CykKitInfo.h>
 @interface CYKViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    CykKitInfo *cyk = [[CykKitInfo alloc] init];
+    [cyk test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BC3EDBB7285B0CE600363050 /* CykKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3EDBB6285B0CE600363050 /* CykKit.framework */; };
 		EFC26C21C6BAB3CBA4109F35 /* Pods_CykKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605B37729E43634D483F0D68 /* Pods_CykKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05579018E0D19ADE56A93AFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0FCFD760A82588669A20699D /* CykKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CykKit.podspec; path = ../CykKit.podspec; sourceTree = "<group>"; };
-		3F1DD0DEA37A78F6FFC860E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		05579018E0D19ADE56A93AFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FCFD760A82588669A20699D /* CykKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CykKit.podspec; path = ../CykKit.podspec; sourceTree = "<group>"; };
+		3F1DD0DEA37A78F6FFC860E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CykKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CykKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +66,7 @@
 		7B2AD59B1B3D22F0863037BA /* Pods-CykKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CykKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CykKit_Tests/Pods-CykKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3E403359C5CF84246B23799 /* Pods_CykKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CykKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3EDBB6285B0CE600363050 /* CykKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CykKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99217D10AD20B0854AD2033 /* Pods-CykKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CykKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CykKit_Example/Pods-CykKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3D0AF58E33E2C81E808C249 /* Pods-CykKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CykKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CykKit_Example/Pods-CykKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3EDBB7285B0CE600363050 /* CykKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC3EDBB6285B0CE600363050 /* CykKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +197,6 @@
 				7B2AD59B1B3D22F0863037BA /* Pods-CykKit_Tests.debug.xcconfig */,
 				75B39D8218DF20A49B342E21 /* Pods-CykKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
